@@ -1,0 +1,76 @@
+body {
+  background-image: url(img/textura-4.jpg);
+  background-color: rgb(46, 46, 46);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(255, 255, 255)
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: #ccc 1px 1px 4px;
+  line-height: 350px;
+}
+
+.hero {
+  background-image: url(img/textura-5.jpg);
+  height: 50vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+
+
+
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a{
+  margin-right: 60px;
+  transition: all 250ms;
+
+}
+
+.nav a:hover {
+  color: rgb(101, 255, 255);
+  text-shadow: #ccc 1px 1px 5px;
+  transform: scale(1.2 , 1.2);
+
+}
+
+.logo {
+  color: white;
+}
